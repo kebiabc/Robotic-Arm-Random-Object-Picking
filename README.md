@@ -71,3 +71,12 @@ The system consists of the following components:
 
 ### Setup
 
+### Configuration
+
+
+### Future Work
+Improved Grasp Planning: Add support for soft-body and irregular object handling.
+Optimized Detection: Improve detection accuracy in low-light conditions.
+Scalability: Expand support for additional robotic arm models.
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
