@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>
+    <node pkg="gripper_comm" type="tcp_to_485.py" name="tcp_to_485_node" output="screen">
+        <param name="ip" value="192.168.1.40"/> <!-- 设置为控制柜 IP -->
+        <param name="port" value="8890"/>         <!-- TCP 服务器端口 -->
+    </node>
+</launch>
